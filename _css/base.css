@@ -1,0 +1,101 @@
+/* CSS reset */
+html,body,div,span,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,label,legend,p,blockquote,pre,a,fieldset,input,textarea
+{margin:0;padding:0;font-weight:normal;background-repeat:no-repeat;font-family:Georgia, Hoefler, serif}
+img,object,iframe,input,select,fieldset{margin:0;padding:0;border:0;}ol,ul{list-style:none}h1,h2,h3,h4,h5,h6,input,select,textarea{font-size:1em}
+em,strong{font-style:normal;font-weight:400}
+img{vertical-align:middle}
+a {outline:none;}
+pre, pre span {font-family:Consolas,monospace !important;}
+/* */
+
+body {
+	background: #FFF;
+	background: -moz-linear-gradient(top, #FFFFFF, #FAFAFA);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#FAFAFA));
+	filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#FFFFFF', EndColorStr='#FAFAFA', GradientType=0);
+}
+
+a { text-decoration: none; }
+a:hover { border-bottom:1px dotted red; margin-bottom: -1px; }
+
+#wrap {
+	border-top:8px solid #333;
+	width:980px;
+	margin:0 auto;
+	font-size:13px;
+	line-height:16px;
+}
+
+#header {
+	height:120px;
+	padding:30px;
+	border-bottom:1px dotted #333;
+}
+
+#header h1 {
+	line-height:120px;
+	font-size:44px;
+	float:left;
+	height:120px;
+}
+
+#nav {
+	float:right;
+	padding:30px 160px 0 0;
+}
+
+#nav li {
+	padding:4px 0;
+}
+
+#nav li a {
+	font-size:13px;
+	color:#111;
+}
+
+#section {
+	clear:both;
+	padding:60px 30px 60px 160px;
+}
+
+.article h2 {
+	font-size:32px;
+}
+
+.article .time {
+	display:block;
+	clear:both;
+	font-style: italic;
+	color:#666;
+	padding-top:12px;
+}
+
+.article .lead {
+	font-size:21px;
+	line-height:24px;
+	padding:30px 0 20px;
+}
+
+.article p {
+	font-size:16px;
+	line-height:20px;
+	padding-bottom:16px;
+}
+
+.article pre {
+	padding:20px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	margin:12px 0 24px;
+}
+
+#footer {
+	clear:both;
+	padding:20px 0 40px;
+	color:#555;
+	text-align:center;
+	font-size:13px;
+	text-shadow: 0px 1px 0px #FFF;
+	border-top:1px dotted #777;
+}
